@@ -1,5 +1,7 @@
 # carla-competition
 
+This project explores and compares three different approaches to autonomous driving in the CARLA simulator: Imitation Learning, Modular Pipeline, and Reinforcement Learning. Each method represents a unique paradigm for teaching autonomous agents to navigate complex driving environments, with the goal of evaluating their strengths, weaknesses, and suitability for autonomous driving tasks.
+
 # Imitation Learning
 
 This repository implements a pipeline for training an imitation learning model in the CARLA simulator. The goal is to collect driving data from the CARLA autopilot and train a convolutional neural network (CNN) to predict driving commands from front-camera images. This project serves as an entry point for building autonomous vehicle models based on supervised learning.
